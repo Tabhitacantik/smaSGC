@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Website profil SMA Sugar Group, Lampung Tengah.">
+  <title>SMA Sugar Group</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__info">
+        <a href="tel:+62725563017">(0725) 563017</a>
+        <a href="mailto:sma.sugar.group@gmail.com">sma.sugar.group@gmail.com</a>
+      </div>
+      <div class="socials">
+        <a href="#" target="_blank" rel="noopener">TikTok</a>
+        <a href="#" target="_blank" rel="noopener">YouTube</a>
+        <a href="#" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#beranda" class="logo">
+        <span class="logo__mark">SG</span>
+        <span class="logo__text">SMA <strong>Sugar Group</strong></span>
+      </a>
+
+      <button class="hamburger" id="hamburger" aria-label="Buka menu" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#beranda" class="nav-link">Beranda</a></li>
+          <li><a href="#profil" class="nav-link">Profil</a></li>
+          <li><a href="#program" class="nav-link">Program</a></li>
+          <li><a href="#fasilitas" class="nav-link">Fasilitas</a></li>
+          <li><a href="#kontak" class="nav-link">Kontak</a></li>
+          <li><a href="#kontak" class="btn btn--small">PPDB</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="beranda">
+      <div class="slider" id="slider">
+        <div class="slide active" style="--bg: url('assets/images/hero-1.jpg')"></div>
+        <div class="slide" style="--bg: url('assets/images/hero-2.jpg')"></div>
+        <div class="slide" style="--bg: url('assets/images/hero-3.jpg')"></div>
+      </div>
+
+      <div class="hero__content container">
+        <p class="hero__tag">Selamat Datang di</p>
+        <h1>SMA Sugar Group</h1>
+        <p class="hero__desc">
+          Mencetak generasi cerdas, berkarakter, dan siap menghadapi masa depan
+          di Lampung Tengah. (Ganti dengan tagline sekolah.)
+        </p>
+        <div class="hero__cta">
+          <a href="#kontak" class="btn">Daftar PPDB</a>
+          <a href="#galeri" class="btn btn--outline">Lihat Galeri</a>
+        </div>
+      </div>
+
+      <button class="slider__arrow slider__arrow--prev" id="prev" aria-label="Slide sebelumnya">&#10094;</button>
+      <button class="slider__arrow slider__arrow--next" id="next" aria-label="Slide berikutnya">&#10095;</button>
+      <div class="slider__dots" id="dots"></div>
+    </section>
+
+    <!-- PROFIL -->
+    <section class="section" id="profil">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Profil Sekolah</h2>
+          <p>Mengenal lebih dekat SMA Sugar Group</p>
+        </div>
+
+        <div class="profile reveal">
+          <div class="profile__img">Foto Sekolah</div>
+          <div class="profile__text">
+            <p>
+              SMA Sugar Group adalah sekolah menengah atas yang berlokasi di
+              Terbanggi Ilir, Lampung Tengah. Sekolah ini berkomitmen memberikan
+              pendidikan berkualitas dalam lingkungan yang aman, disiplin, dan
+              mendukung. (Placeholder: ganti dengan sejarah dan deskripsi resmi.)
+            </p>
+          </div>
+        </div>
+
+        <div class="grid grid--2 reveal">
+          <article class="card">
+            <h3>Visi</h3>
+            <p>Menjadi sekolah unggul yang melahirkan lulusan berprestasi, berkarakter, dan berdaya saing. (Placeholder)</p>
+          </article>
+          <article class="card">
+            <h3>Misi</h3>
+            <ul class="list">
+              <li>Menyelenggarakan pembelajaran yang berkualitas.</li>
+              <li>Menanamkan nilai karakter dan disiplin.</li>
+              <li>Mengembangkan bakat dan minat siswa.</li>
+              <li>Menjalin kerja sama dengan masyarakat. (Placeholder)</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROGRAM -->
+    <section class="section section--alt" id="program">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Program Unggulan</h2>
+          <p>Keunggulan yang kami tawarkan</p>
+        </div>
+        <div class="grid grid--4">
+          <article class="card card--center reveal">
+            <div class="icon">📚</div>
+            <h3>Akademik Unggul</h3>
+            <p>Kurikulum terstruktur dengan pendampingan guru berpengalaman.</p>
+          </article>
+          <article class="card card--center reveal">
+            <div class="icon">🏆</div>
+            <h3>Ekstrakurikuler</h3>
+            <p>Beragam pilihan kegiatan untuk mengembangkan bakat siswa.</p>
+          </article>
+          <article class="card card--center reveal">
+            <div class="icon">🌱</div>
+            <h3>Pendidikan Karakter</h3>
+            <p>Pembiasaan nilai disiplin, tanggung jawab, dan kepedulian.</p>
+          </article>
+          <article class="card card--center reveal">
+            <div class="icon">💻</div>
+            <h3>Literasi Teknologi</h3>
+            <p>Pengenalan teknologi untuk menunjang pembelajaran modern.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FASILITAS -->
+    <section class="section" id="fasilitas">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Fasilitas Sekolah</h2>
+          <p>Sarana yang menunjang kegiatan belajar</p>
+        </div>
+        <div class="grid grid--3">
+          <article class="card card--media reveal">
+            <div class="media" style="--bg: url('assets/images/gallery-1.jpg')"></div>
+            <div class="card__body"><h3>Ruang Kelas</h3><p>Ruang belajar nyaman dan tertata.</p></div>
+          </article>
+          <article class="card card--media reveal">
+            <div class="media" style="--bg: url('assets/images/gallery-2.jpg')"></div>
+            <div class="card__body"><h3>Laboratorium</h3><p>Praktik sains dan komputer.</p></div>
+          </article>
+          <article class="card card--media reveal">
+            <div class="media" style="--bg: url('assets/images/gallery-3.jpg')"></div>
+            <div class="card__body"><h3>Perpustakaan</h3><p>Koleksi buku dan ruang baca tenang.</p></div>
+          </article>
+          <article class="card card--media reveal">
+            <div class="media" style="--bg: url('assets/images/gallery-4.jpg')"></div>
+            <div class="card__body"><h3>Lapangan Olahraga</h3><p>Area olahraga dan upacara.</p></div>
+          </article>
+          <article class="card card--media reveal">
+            <div class="media" style="--bg: url('assets/images/gallery-5.jpg')"></div>
+            <div class="card__body"><h3>Musala</h3><p>Tempat ibadah yang bersih dan nyaman.</p></div>
+          </article>
+          <article class="card card--media reveal">
+            <div class="media" style="--bg: url('assets/images/gallery-6.jpg')"></div>
+            <div class="card__body"><h3>Kantin</h3><p>Makanan sehat dan terjangkau.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALERI -->
+    <section class="section section--alt" id="galeri">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Galeri Kegiatan</h2>
+          <p>Momen berharga di SMA Sugar Group</p>
+        </div>
+        <div class="gallery">
+          <div class="gallery__item reveal" style="--bg: url('assets/images/gallery-1.jpg')">Kegiatan 1</div>
+          <div class="gallery__item reveal" style="--bg: url('assets/images/gallery-2.jpg')">Kegiatan 2</div>
+          <div class="gallery__item reveal" style="--bg: url('assets/images/gallery-3.jpg')">Kegiatan 3</div>
+          <div class="gallery__item reveal" style="--bg: url('assets/images/gallery-4.jpg')">Kegiatan 4</div>
+          <div class="gallery__item reveal" style="--bg: url('assets/images/gallery-5.jpg')">Kegiatan 5</div>
+          <div class="gallery__item reveal" style="--bg: url('assets/images/gallery-6.jpg')">Kegiatan 6</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- KONTAK + FOOTER -->
+  <footer class="footer" id="kontak">
+    <div class="container footer__grid">
+      <div class="footer__col">
+        <div class="logo logo--light">
+          <span class="logo__mark">SG</span>
+          <span class="logo__text">SMA <strong>Sugar Group</strong></span>
+        </div>
+        <h3>Contact us on:</h3>
+        <div class="socials socials--footer">
+          <a href="#" target="_blank" rel="noopener">TikTok</a>
+          <a href="#" target="_blank" rel="noopener">YouTube</a>
+          <a href="#" target="_blank" rel="noopener">Instagram</a>
+        </div>
+        <p class="footer__small">
+          Telp: <a href="tel:+62725563017">(0725) 563017</a><br>
+          Email: <a href="mailto:sma.sugar.group@gmail.com">sma.sugar.group@gmail.com</a>
+        </p>
+      </div>
+
+      <div class="footer__col footer__col--map">
+        <h3>School Location</h3>
+        <iframe
+          title="Lokasi SMA Sugar Group"
+          src="https://www.google.com/maps?q=SMA+Sugar+Group+Terbanggi+Besar+Lampung+Tengah&output=embed"
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <address>
+          Terbanggi Ilir, Kec. Bandar Mataram,<br>
+          Kabupaten Lampung Tengah, Lampung 34164
+        </address>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      Copyright - <span id="year">2026</span> - SMA Sugar Group
+    </div>
+  </footer>
+
+  <button class="to-top" id="to-top" aria-label="Kembali ke atas">&#8963;</button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
